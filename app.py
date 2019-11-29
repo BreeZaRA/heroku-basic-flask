@@ -18,9 +18,9 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_channel_access_token = 'HvKr9CgWtoNr7/WROUyxpULD3iMxXqMBelv1pUL3sXBi/4zXtUgxLKa0RbfG+y5+x15W3tVUtRiUpyN0SluMAC+IhBftTxgjwNhqckeodVL6d2Gi+01i1kJSkS9HM8Ne3gU+bCUye6mNADBJlle0mwdB04t89/1O/w1cDnyilFU='
+line_channel_access_token = 'FT9zaPscYQJbAQtWq4bHl1iM4Kpx7tHthvQZn4KcCj4eta1Nfq0T+jBpYxGtxPtrRrj3/GD6QLDCQxThjS52itajTMpnvsnJzRwuMj9xivIQIN1fkIEslMimIRNnyXF/heI7MCcCtpCNcbD2Y4EDewdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(line_channel_access_token)
-handler = WebhookHandler('0d24b4c7bef0a52dd0c782635954a9e3')
+handler = WebhookHandler('96363b03e615241b7d68c6ef2ba8dcf2')
 Authorization = "Bearer {}".format(line_channel_access_token)
 
 
